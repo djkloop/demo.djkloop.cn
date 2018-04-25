@@ -1,19 +1,17 @@
 <template>
-  <section class="container">
-    <layout>
-      1111
-    </layout>
-  </section>
+ <layout>
+
+ </layout>
 </template>
 
 <script>
 import layout from '~/components/Layout.vue'
-
 export default {
 
   components: {
     layout
-  }
+  },
+
 }
 </script>
 
