@@ -18,8 +18,8 @@ const headerStore = {
         这里因为改变了float所以坐标是反的
       */
       if(key !== '') {
-        var liLength = document.querySelectorAll('.el-menu-item').length;
-        var isActiveLi = document.querySelectorAll('.el-menu-item')[liLength-key];
+        var liLength = document.querySelectorAll('.d-top-menu .el-menu-item').length;
+        var isActiveLi = document.querySelectorAll('.d-top-menu .el-menu-item')[liLength-key];
         var isAsrc = isActiveLi.querySelector('a').getAttribute('href');
         this.$router.push({
           path: isAsrc

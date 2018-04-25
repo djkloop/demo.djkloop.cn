@@ -9,3 +9,11 @@
 .d-top-menu {
   padding: 0 20px;
 }
+
+.el-container {
+  min-height: calc(100vh - 125px);
+}
+
+.el-menu {
+  min-height: 100%;
+}

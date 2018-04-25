@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <layout>
-      1111
+      我是Index首页
     </layout>
   </section>
 </template>
